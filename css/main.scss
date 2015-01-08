@@ -50,3 +50,11 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.pattern {
+  .pattern-title {
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+  }
+  margin-bottom: 100px;
+}
