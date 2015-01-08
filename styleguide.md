@@ -31,15 +31,6 @@ block_categories:
     <div class="pattern">
       <h2 class="pattern-title">{{ name }}</h2>
       {{p.content}}
-
-      <details>
-        <summary>Code</summary>
-      {% highlight html %}
-      {{p.content }}
-      {% endhighlight %}
-
-      </details>
-
     </div>
   {% endfor %}
 
