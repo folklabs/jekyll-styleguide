@@ -14,5 +14,8 @@ markdown: kramdown
 collections:
   patterns:
     output: true
-  atoms:
+  webpages:
     output: true
+
+pattern_includes:
+- search-bar

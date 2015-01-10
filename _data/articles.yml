@@ -1,0 +1,16 @@
+---
+- title: Article 1
+  body: |
+    This is the long content of an article.
+    Here is some more text.
+
+    And yet more.
+  date: 1 Jan 2015
+
+- title: Article 2
+  body: |
+    This is the long content of an article.
+    Here is some more text.
+
+    And yet more.
+  date: 20 June 2015

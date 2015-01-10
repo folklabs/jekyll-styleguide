@@ -6,7 +6,12 @@
       {% assign name = name_parts[1] %}
 
       <li>
-        <a href="#{{name}}">{{ name }}</a>
+        <a href="#{{ name }}">{{ name }}</a>
       </li>
     {% endfor %}
+
+    {% for p in site.pattern_includes %}
+      <a href="#{{ p }}">{{ p }}</a>
+    {% endfor %}
+
   </ul>
